@@ -55,6 +55,7 @@
 /***************************************************************************************************
  * Zone JS is required by default for Angular itself.
  */
+(window as any).__zone_symbol__BLACK_LISTED_EVENTS = ['mousemove'];
 import 'zone.js/dist/zone';  // Included with Angular CLI.
 
 
